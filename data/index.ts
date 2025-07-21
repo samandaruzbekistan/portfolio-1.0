@@ -1,8 +1,8 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Men haqimda", link: "#about" },
+  { name: "Loyihalarim", link: "#projects" },
+  { name: "Brendlar", link: "#testimonials" },
+  { name: "Bog‘lanish", link: "#contact" },
 ];
 
 export const gridItems = [
@@ -205,13 +205,21 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/samandaruzbekistan",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/telegram.svg",
+    link: "https://t.me/samandar_sariboyev",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/instagram.svg",
+    link: "https://www.instagram.com/samandar_sariboyev",
+  },
+  {
+    id: 4,
+    img: "/youtube.svg",
+    link: "https://www.youtube.com/@samandar_sariboyev",
   },
 ];
