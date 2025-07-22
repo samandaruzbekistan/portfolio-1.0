@@ -68,8 +68,10 @@ export const BentoGridItem = ({
 
   const handleCopy = () => {
     const text = "https://t.me/samandar_sariboyev";
-    navigator.clipboard.writeText(text);
-    setCopied(true);
+    if (typeof window !== 'undefined' && navigator && navigator.clipboard) {
+      navigator.clipboard.writeText(text);
+      setCopied(true);
+    }
   };
 
   return (
