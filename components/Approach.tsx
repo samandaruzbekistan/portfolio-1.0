@@ -45,7 +45,7 @@ const Approach = () => {
         </Card>
         <Card
           title="Ishga tayyorgarlik"
-          icon={<AceternityIcon order="Phase 3" />}
+          icon={<AceternityIcon order="3-Bosqich" />}
           des="CV yozish, portfolio tayyorlash, test topshiriqlar bajarish, mock-interview va frilanser platformalar bilan ishlash."
         >
           <CanvasRevealEffect
